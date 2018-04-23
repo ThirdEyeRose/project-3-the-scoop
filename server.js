@@ -361,6 +361,21 @@ function downvoteComment(url, request) {
   return response;
 }
 
+function loadDatabase() {
+  let database = {
+    users: {},
+    articles: {},
+    nextArticleId: 1,
+    comments: {},
+    nextCommentId: 1
+  };
+  reurn database;
+}
+
+function saveDatabase() {
+
+}
+
 // Write all code above this line.
 
 const http = require('http');
