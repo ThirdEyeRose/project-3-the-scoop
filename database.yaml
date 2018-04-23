@@ -1,0 +1,9 @@
+users:
+  pat:
+    username: pat
+    articleIds: []
+    commentIds: []
+articles: {}
+nextArticleId: 1
+comments: {}
+nextCommentId: 1
