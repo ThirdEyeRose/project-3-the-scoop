@@ -367,7 +367,6 @@ function downvoteComment(url, request) {
 function loadDatabase() {
   // If database file exists, load database.
   // If database file doesn't exist, load empty database
-  console.log('Loading Database!');
   let database = {};
 
   if (fs.existsSync('database.yaml')) {
@@ -382,7 +381,6 @@ function loadDatabase() {
       nextCommentId: 1
     };
   }
-  console.log(database);
   return database;
 }
 
